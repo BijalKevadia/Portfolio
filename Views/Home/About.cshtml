@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "About | ";
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+        <title>About</title>
+    </head>
+    <body>
+        <div class="container">
+           <h1 class="text-center headerSkills">About</h1>
+ 
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <h2 class="display-5 headerSkills">Contact Me</h2>
+                    <img src="~/img/myPic.jpg" alt="Picture of me" class="myPic">
+                    <form action="mailto:kevadia.bijal@gmail.com" method="post" enctype="text/plain">
+                        Name:<br>
+                        <input type="text" name="name"><br>
+                        Comment:<br>
+                        <input type="text" name="comment" size="50"><br><br>
+                        <input type="submit" value="Send">
+                    </form>
+                        
+                </div>
+
+                <div class="col-sm-6 text-center">
+                    <h2 class="display-5 headerSkills">About Me :)</h2>
+                    <p class="aboutText">Hello there! Thank you so much for visiting my page! I moved to Seattle in 2018 from Florida, originally to further my education in Business Adminsistration.
+                    Although business has always been a great passion of mine, I have found a greater passion for front end development after moving to the bustling tech hub.
+                    In my free time I also love to plan, craft, and design drawings. 
+                    </p>
+                    <br>
+                    <h4>I'd love for you to get to know me better!</h4>
+                    <br>
+                    <p onclick="window.location.href='https://www.linkedIn.com/in/bijalkevadia/'"><i class= "fa" style="font-size: 24px;">&#xf08c;</i> LinkedIn</p>
+                    <p onclick="window.location.href='https://www.github.com/bijalkevadia/'"><i class="fa" style="font-size:24px;">&#xf09b;</i> GitHub</p>
+                    <p onclick="window.location.href='mailto:kevadia.bijal@gmail.com';"><i class="fa" style="font-size:24px;">&#xf0e0;</i> kevadia.bijal@gmail.com</p>
+        
+        
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

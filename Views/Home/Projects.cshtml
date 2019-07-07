@@ -1,0 +1,80 @@
+@{
+        ViewData["Title"] = "Projects |";
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+   
+        <title>Full Stack Projects</title>
+    </head>
+    <body>
+        <div class="container">
+       
+
+            <div class="text-center">
+                <h1 class="display-4 headerSkills">Full Stack Projects</h1>
+        
+            </div>
+            <div class="col-lg-12 col-sm-12">
+                <table class="table-responsive projectTable">
+                    <thead>
+                        <tr>
+                            <th>Project Pictures</th>
+                            <th>Technologies Used</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="~/img/PetSpa.png" alt="Pet Spa Picture" class="projectImgs"></td>
+                            <td>
+                                <ul class="Proj" id="fade">
+                                    <li class="projectTech">Python</li>
+                                    <li class="projectTech">HTML</li>
+                                    <li class="projectTech">CSS</li>
+                                    <li class="projectTech">Bootstrap</li>
+                                    <li class="projectTech">Django</li>
+                                    <br>
+                                    <p class="projectTech">Features</p>
+                                    <li class="projectTech">Login & Register</li>
+                                    <li class="projectTech">Create & Edit Multiple Pet Profiles</li>
+                                    <li class="projectTech">Schedule an Appointment if the time slot is available</li>
+                                    <li class="projectTech">Incorporating three API's</li>
+
+                                    
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/img/EatAp.png" alt="Pet Spa Picture"class="projectImgs"></td>
+                            <td>
+                                <ul>
+                                    <li class="projectTech">C#</li>
+                                    <li class="projectTech">HTML</li>
+                                    <li class="projectTech">CSS</li>
+                                    <li class="projectTech">Bootstrap</li>
+                                    <li class="projectTech">jQuery</li>
+                                    <li class="projectTech">.Net Entity Core</li>
+                                    <br>
+                                    <p class="lirojectTech">Features</p>
+                                    <li class="projectTech">Login & Register</li>
+                                    <li class="projectTech">Login & Register a Business/Admin</li>
+                                    <li class="projectTech">Text to Speech Feature</li>
+                                    <li class="projectTech">Users can create/edit reviews</li>
+                                    <li class="projectTech">Users can search for restaurants</li>
+                                    <li class="projectTech">Users can upload images</li>                                    
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="github-card" data-github="bijalkevadia" data-width="400" data-height="" data-theme="default"></div>
+                        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script></td>
+                            <td class="projectTech">Please look at my Github to see more of my projects! :)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
